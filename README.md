@@ -6,7 +6,7 @@
 
 免费使用 · 免安装便携版
 
-[版本下载](https://github.com/Ahey1/SY-Studio/releases) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
+[下载便携版](https://github.com/Ahey1/SY-Studio/releases/download/v1/SY-Studio-v1-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/SY-Studio/releases/download/v1/SY-Studio-v1-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
 
 </div>
 
@@ -31,13 +31,13 @@
 
 ## 下载与使用
 
-**v1 发行文件准备中。** 确认源码下载包的范围后，通过 [Releases](https://github.com/Ahey1/SY-Studio/releases) 提供正式附件。
+**v1 / 1.0.0**：通过 [Releases](https://github.com/Ahey1/SY-Studio/releases/tag/v1) 下载 Windows x64 便携包和单个完整源码包。校验值见同页版本说明。
 
 本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub 自动生成的 **Source code (zip/tar.gz)** 仅包含这个介绍站的文件，不是 SY-Studio 产品源码包。
 
 Windows 便携版完整解压后运行 `SY-Studio.exe`，首次启动按电脑配置设置核数和内存。常规使用无需另外安装 Python、Node.js 或开发工具。部分波函数分析需要在 Settings 中配置用户自己的 Multiwfn；Gaussian / ORCA 输入生成与结果读取不代表内置这两款计算程序。
 
-v1 是本次发行名称，当前程序内部构建标识为 0.72.1。Windows 11 已做本机检查，并收到作者另一台 Windows 11 成功测试的反馈；Windows 10 后续验证。
+v1 是发行名称，软件内部版本为 1.0.0。已完成本机版本、引用导出、保存和正常退出的定向检查；另收到作者对前一构建在另一台 Windows 11 成功测试的反馈。Windows 10 后续验证。
 
 ## 许可与交流
 
