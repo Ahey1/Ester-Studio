@@ -8,7 +8,7 @@
 
 免费使用 · 源码公开 · 免安装 · 开箱即用
 
-[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v1-ester/Ester-Studio-v1-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v1-ester/Ester-Studio-v1-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
+[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v1.0.1/Ester-Studio-v1.0.1-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v1.0.1/Ester-Studio-v1.0.1-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ## 软件实际出图
 
-以下图片由本软件的既有 SY-Studio 构建实际导出。Ester Studio 延续相同的科学计算与绘图功能；图片完整保留画面，模型为公开咖啡因结构。
+以下图片均由软件实际导出，完整保留画面；模型为公开咖啡因结构。
 
 <table><tr><td align="center"><img src="docs/images/model.png" width="420" alt="青碳高光分子预设"><br>青碳高光模型</td><td align="center"><img src="docs/images/homo.png" width="420" alt="咖啡因 GFN2-xTB HOMO 轨道"><br>HOMO 轨道</td></tr></table>
 
@@ -29,21 +29,21 @@
 
 <p align="center">ESP 着色分子表面 · 保留色尺与单位</p>
 
-轨道和 ESP 示例来自咖啡因 GFN2-xTB 气相单点，后处理由软件调用用户配置的 Multiwfn 完成。图片展示出图能力，不标作 DFT 或 NTO 结果。
+轨道和ESP示例来自咖啡因GFN2-xTB气相单点，后处理调用用户配置的Multiwfn完成，不标作DFT或NTO结果。
 
 ## 下载与使用
 
-**v1 / 1.0.0**：通过 [Ester Studio v1 下载页](https://github.com/Ahey1/Ester-Studio/releases/tag/v1-ester) 获取 Windows x64 便携包和单个完整源码包。校验值见同页版本说明。[旧 SY-Studio v1](https://github.com/Ahey1/Ester-Studio/releases/tag/v1) 保留供历史查阅。
+当前首发版本为 **1.0.1**，后续统一采用 **1.0.x** 版本形式。通过[版本页](https://github.com/Ahey1/Ester-Studio/releases/tag/v1.0.1)下载两个附件，SHA-256见版本说明。
 
-本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub 自动生成的 **Source code (zip/tar.gz)** 仅包含这个介绍站的文件；完整产品源码请下载 **Ester-Studio-v1-source-code.zip**。
+本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub自动生成的Source code (zip/tar.gz)仅含介绍站；完整产品源码请下载 **Ester-Studio-v1.0.1-source-code.zip**。
 
-完整解压后运行 **Ester-Studio.exe**。首次启动先阅读 LICENSE，再核对计算资源，默认 4 核、8 GB。常规使用无需另外安装 Python、Node.js 或开发工具。部分波函数分析需要在 Settings 中配置用户自己的 Multiwfn；Gaussian / ORCA 输入生成与结果读取不代表内置这两款计算程序。
+完整解压后运行 **Ester-Studio.exe**。首次启动先阅读LICENSE，再核对计算资源，默认4核、8 GiB。新项目使用 **.es**，兼容早期.sy项目。常规使用无需另装Python、Node.js或开发工具；部分波函数分析需要自行配置Multiwfn。Gaussian/ORCA输入生成与结果读取不代表内置这两款计算程序。
 
-Ester Studio 简称 **ES**，原名 SY-Studio。新项目使用 **`.es`**，保留旧 `.sy` 项目的打开与原位保存兼容。Windows 11 已有前版的本机及另一台电脑测试记录，本次更新执行更名、项目格式入口与首启流程定向验证。Windows 10 后续验证。
+当前以Windows 11为验收环境，Windows 10后续验证。
 
 ## 许可与交流
 
-免费使用，遵循[自定义许可](LICENSE.txt)；销售软件副本需作者书面授权。第三方组件遵循各自许可，发行附件中附有相应材料。
+免费使用，遵循[自定义许可](LICENSE.txt)；销售软件副本需作者书面授权。第三方组件遵循各自许可，发行附件包含相应材料。
 
 [碘到为酯 · B站主页](https://space.bilibili.com/3493133310495553) · [提交问题或建议](https://github.com/Ahey1/Ester-Studio/issues)
 
