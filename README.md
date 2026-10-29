@@ -8,7 +8,7 @@
 
 免费使用 · 源码公开 · 免安装 · 开箱即用
 
-[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v1.0.1/Ester-Studio-v1.0.1-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v1.0.1/Ester-Studio-v1.0.1-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
+[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v1.0.2/Ester-Studio-v1.0.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v1.0.2/Ester-Studio-v1.0.2-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
 
 </div>
 
@@ -33,9 +33,9 @@
 
 ## 下载与使用
 
-当前首发版本为 **1.0.1**，后续统一采用 **1.0.x** 版本形式。通过[版本页](https://github.com/Ahey1/Ester-Studio/releases/tag/v1.0.1)下载两个附件，SHA-256见版本说明。
+当前版本为 **1.0.2**，后续统一采用 **1.0.x** 版本形式。通过[版本页](https://github.com/Ahey1/Ester-Studio/releases/tag/v1.0.2)下载两个附件，SHA-256见版本说明。
 
-本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub自动生成的Source code (zip/tar.gz)仅含介绍站；完整产品源码请下载 **Ester-Studio-v1.0.1-source-code.zip**。
+本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub自动生成的Source code (zip/tar.gz)仅含介绍站；完整产品源码请下载 **Ester-Studio-v1.0.2-source-code.zip**。
 
 完整解压后运行 **Ester-Studio.exe**。首次启动先阅读LICENSE，再核对计算资源，默认4核、8 GiB。新项目使用 **.es**，兼容早期.sy项目。常规使用无需另装Python、Node.js或开发工具；部分波函数分析需要自行配置Multiwfn。Gaussian/ORCA输入生成与结果读取不代表内置这两款计算程序。
 
