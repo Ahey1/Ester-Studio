@@ -8,7 +8,7 @@
 
 免费使用 · 源码公开 · 免安装 · 开箱即用
 
-[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.0.1/Ester-Studio-v2.0.1-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.0.1/Ester-Studio-v2.0.1-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
+[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.0.2/Ester-Studio-v2.0.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.0.2/Ester-Studio-v2.0.2-source-code.zip) · [碘到为酯 · B站](https://space.bilibili.com/3493133310495553)
 
 </div>
 
@@ -16,11 +16,11 @@
 
 - **建模**：分子与晶体、片段与结构库、周期结构与预优化。
 - **二维快速建模**：二维绘图、ChemDraw 文件导入、离线图片识别与校改。
-- **构象与轨迹**：混合采样、分级优化、完整归簇、公共播放与叠合。
+- **构象与轨迹**：混合采样、逐级抽帧优化、对称等价归簇、玻尔兹曼权重与占比、公共播放与叠合。
 - **输入准备**：Gaussian / ORCA 方法、基组、电荷与自旋、溶剂、约束和资源设置。
 - **计算任务**：Windows / WSL2 / SSH / SSH＋Slurm 环境，提交、监控、结果归档及任务恢复。
 - **结果与后处理**：结构与能量、轨道与振动、激发态、NTO、ESP、IRI / IGMH。
-- **科研出图**：四种分子模型预设、自定义光照与材质、完整图片与透明背景导出。
+- **科研出图**：四种分子模型预设、自定义光照与材质、碳原子R/S标注、完整图片与透明背景导出。
 
 ## 软件实际出图
 
@@ -36,9 +36,9 @@
 
 ## 下载与使用
 
-当前版本为 **2.0.1**。通过[版本页](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.0.1)下载两个附件，并查看按功能分类的更新说明和 SHA-256。
+当前版本为 **2.0.2**。通过[版本页](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.0.2)下载两个附件，并查看按功能分类的更新说明和 SHA-256。
 
-本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub自动生成的Source code (zip/tar.gz)仅含介绍站；完整产品源码请下载 **Ester-Studio-v2.0.1-source-code.zip**。
+本仓库仅维护介绍页、展示图片和发行下载，不存放产品源码树。GitHub自动生成的Source code (zip/tar.gz)仅含介绍站；完整产品源码请下载 **Ester-Studio-v2.0.2-source-code.zip**。
 
 完整解压后运行 **Ester-Studio.exe**。首次启动先阅读LICENSE，再核对计算资源，默认4核、8 GiB。新项目使用 **.es**，兼容早期.sy项目。常规使用无需另装Python、Node.js或开发工具；部分波函数分析需要自行配置Multiwfn。Gaussian/ORCA输入生成与结果读取不代表内置这两款计算程序。
 
