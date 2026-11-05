@@ -1,7 +1,7 @@
 Ester Studio（ES）免费源码公开许可协议
 协议版本：1.0
-适用软件版本：Ester Studio（ES）2.0.2
-构建标识：2.0.2
+适用软件版本：Ester Studio（ES）2.0.3
+构建标识：2.0.3
 Copyright (c) 2026 Zixuan Zhang
 
 原始作者、著作权人及特别授权唯一批准人：
@@ -10,7 +10,7 @@ Copyright (c) 2026 Zixuan Zhang
   ddwz@sciyue.cn
 对应源码及官方项目获取方式：
   官方仓库：https://github.com/Ahey1/Ester-Studio
-  v2.0.2 对应源码与便携包（公开状态以实际发布记录为准）：https://github.com/Ahey1/Ester-Studio/releases/tag/v2.0.2
+  v2.0.3 对应源码与便携包（公开状态以实际发布记录为准）：https://github.com/Ahey1/Ester-Studio/releases/tag/v2.0.3
 
 适用版本与生效：
 本许可适用于作者明确连同本文件提供的 Ester Studio 发行物，以其版本及
