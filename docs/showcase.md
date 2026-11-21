@@ -2,7 +2,7 @@
 
 [返回仓库首页](../README.md)
 
-常规分子图采用 ES 的青碳高光预设。三维图保留计算或导入的几何坐标、等值与色尺。下方工作台截图来自 Windows 便携版 2.1.2。
+首页首图使用 Ester Studio 内置默认预设。本图册展示 ES 的 VMD 青碳高光与其他可选绘图预设。三维图保留计算或导入的几何坐标、等值与色尺。下方工作台截图来自 Windows 便携版 2.1.2。
 
 ## 多巴胺
 
@@ -93,7 +93,7 @@
 \n## 工作台实窗
 
 - [多巴胺 GFN2-xTB 波函数分析工作台](images/showcase/workbench-wavefunction.png)
-- [分子建模](images/showcase/workbench-modeling.png) · [周期结构建模](images/showcase/workbench-periodic.png)
+- [分子建模 · 内置默认](images/showcase/workbench-modeling-es-default.png) · [分子建模 · VMD 青碳](images/showcase/workbench-modeling.png) · [周期结构建模](images/showcase/workbench-periodic.png)
 - [构象搜索](images/showcase/workbench-conformer.png) · [IRC 路径](images/showcase/workbench-irc.png) · [能量曲线选点实录](images/showcase/workbench-irc.gif)
 
 ## 方法来源

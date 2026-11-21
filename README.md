@@ -12,11 +12,14 @@
 </div>
 
 <p align="center">
-  <a href="docs/images/showcase/workbench-modeling.png"><img src="docs/images/showcase/workbench-modeling.png" width="940" alt="Ester Studio 2.1.2 的建模工作台，显示采用 VMD 青碳球棍的多巴胺"></a>
-  <br>Ester Studio 2.1.2 建模工作台 · GFN2-xTB 优化后的多巴胺
+  <a href="docs/images/showcase/workbench-modeling-es-default.png"><img src="docs/images/showcase/workbench-modeling-es-default.png" width="940" alt="Ester Studio 2.1.2 的建模工作台，使用 Ester Studio 内置默认预设显示多巴胺"></a>
+  <br>Ester Studio 2.1.2 建模工作台 · 内置默认预设 · GFN2-xTB 优化后的多巴胺
 </p>
 
 ## 实算图集
+
+<details>
+<summary>展开多巴胺、苯二聚体与水笼实算图</summary>
 
 **多巴胺**　气相中性单重态，GFN2-xTB 优化与波函数计算。ESP 图在 ρ = 0.001 e/bohr³ 的电子密度表面显示静电势。
 
@@ -44,6 +47,8 @@
 
 [查看更多原图、散点图和计算参数](docs/showcase.md)
 
+</details>
+
 ## 从结构到结果
 
 - **建模与输入。** 编辑分子和晶体、插入片段、从二维结构生成和预览三维模型，准备 Gaussian 或 ORCA 输入。
@@ -52,9 +57,10 @@
 - **后处理与出图。** 从结构和能量进入轨道、振动、NTO、静电势、IRI 或 IGMH 分析，编辑图表和色尺并导出图片。
 
 <details>
-<summary>查看周期结构、构象搜索和波函数分析实窗</summary>
+<summary>展开 VMD 青碳建模、周期结构、构象搜索与波函数分析</summary>
 
 <p align="center">
+  <a href="docs/images/showcase/workbench-modeling.png"><img src="docs/images/showcase/workbench-modeling.png" width="720" alt="Ester Studio 的 VMD 青碳高光显示预设"></a>
   <a href="docs/images/showcase/workbench-wavefunction.png"><img src="docs/images/showcase/workbench-wavefunction.png" width="720" alt="ES 2.1.2 中实际生成多巴胺 GFN2-xTB 波函数后的分析工作台"></a>
   <a href="docs/images/showcase/workbench-periodic.png"><img src="docs/images/showcase/workbench-periodic.png" width="720" alt="ES 2.1.2 建模工作台中的氯化钠周期结构"></a>
   <a href="docs/images/showcase/workbench-conformer.png"><img src="docs/images/showcase/workbench-conformer.png" width="720" alt="ES 2.1.2 的构象搜索工作台与采样结果"></a>
@@ -62,14 +68,22 @@
 
 </details>
 
+<details>
+<summary>展开 IRC 能量曲线与切帧实录</summary>
+
 <p align="center">
    <a href="docs/images/showcase/workbench-irc.png"><img src="docs/images/showcase/workbench-irc.png" width="850" alt="ES 2.1.2 的 GFN2-xTB IRC 结果，选中的能量点与三维结构联动"></a>
    <br>IRC 路径与能量曲线 · <a href="docs/images/showcase/workbench-irc.gif">观看选点切帧实录</a>
 </p>
 
+</details>
+
 2.1.2 在 Windows 11 验收机器上载入 **1,000 原子 × 1,000 帧 XYZ**，从选定文件到全部帧就绪用时 **17.27 秒**。 [测试条件与其余验收结果](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2#验收与性能)
 
 ## 绘图预设
+
+<details>
+<summary>展开六种结构预设与轨道、表面和点线图对照</summary>
 
 以下三张图使用相同的多巴胺结构和视角。点击缩略图查看完整图片。
 
@@ -88,6 +102,8 @@
 </p>
 
 [轨道预设](docs/showcase.md#轨道预设) · [表面与相互作用配色](docs/showcase.md#表面与相互作用预设) · [空心与实心点线图](docs/showcase.md#点线图预设)
+
+</details>
 
 ## 下载与使用
 
