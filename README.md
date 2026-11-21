@@ -18,90 +18,169 @@
 
 ## 实算图集
 
+这些图来自实际优化后的结构、波函数和 Multiwfn 计算结果。等值面与散点采用 Ester Studio 启动默认外观。
+
+<p align="center">
+  <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="365" alt="多巴胺 HOMO"></a>
+  <a href="docs/images/showcase/dopamine-esp.png"><img src="docs/images/showcase/dopamine-esp.png" width="365" alt="多巴胺静电势"></a>
+  <br>多巴胺 HOMO · 多巴胺静电势
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/dopamine-lumo.png"><img src="docs/images/showcase/dopamine-lumo.png" width="365" alt="多巴胺 LUMO"></a>
+  <a href="docs/images/showcase/dopamine-density.png"><img src="docs/images/showcase/dopamine-density.png" width="365" alt="多巴胺电子密度"></a>
+  <br>多巴胺 LUMO · 多巴胺电子密度
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/benzene-stack-iri.png"><img src="docs/images/showcase/benzene-stack-iri.png" width="365" alt="苯二聚体 IRI"></a>
+  <a href="docs/images/showcase/benzene-stack-igmh.png"><img src="docs/images/showcase/benzene-stack-igmh.png" width="365" alt="苯二聚体 IGMH"></a>
+  <br>苯二聚体 IRI · 苯二聚体 IGMH
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/benzene-stack-iri-scatter.png"><img src="docs/images/showcase/benzene-stack-iri-scatter.png" width="365" alt="IRI 散点图"></a>
+  <a href="docs/images/showcase/benzene-stack-igmh-scatter.png"><img src="docs/images/showcase/benzene-stack-igmh-scatter.png" width="365" alt="IGMH 散点图"></a>
+  <br>IRI 散点图 · IGMH 散点图
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/water-cage-hirshfeld.png"><img src="docs/images/showcase/water-cage-hirshfeld.png" width="365" alt="中央水 Hirshfeld 表面"></a>
+  <a href="docs/images/showcase/water-cage-fingerprint.png"><img src="docs/images/showcase/water-cage-fingerprint.png" width="365" alt="水笼指纹图"></a>
+  <br>中央水 Hirshfeld 表面 · 水笼指纹图
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/dopamine-optimization-hollow.png"><img src="docs/images/showcase/dopamine-optimization-hollow.png" width="560" alt="多巴胺 GFN2-xTB 优化收敛曲线"></a>
+  <br>多巴胺 GFN2-xTB 优化收敛曲线
+</p>
+
+[查看取值、单位和结构来源](docs/showcase.md)
+
+## 晶体与表面
+
+<p align="center">
+  <a href="docs/images/showcase/nacl-crystal.png"><img src="docs/images/showcase/nacl-crystal.png" width="365" alt="岩盐型 NaCl"></a>
+  <a href="docs/images/showcase/diamond-crystal.png"><img src="docs/images/showcase/diamond-crystal.png" width="365" alt="金刚石晶胞"></a>
+  <br>岩盐型 NaCl · 金刚石晶胞
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/barium-titanate-crystal.png"><img src="docs/images/showcase/barium-titanate-crystal.png" width="365" alt="立方 BaTiO₃"></a>
+  <a href="docs/images/showcase/copper-111-crystal.png"><img src="docs/images/showcase/copper-111-crystal.png" width="365" alt="Cu(111) 四层表面"></a>
+  <br>立方 BaTiO₃ · Cu(111) 四层表面
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/nacl-space.png"><img src="docs/images/showcase/nacl-space.png" width="365" alt="NaCl 空间填充"></a>
+  <a href="docs/images/showcase/barium-titanate-pearl.png"><img src="docs/images/showcase/barium-titanate-pearl.png" width="365" alt="BaTiO₃ 铜棕珠光"></a>
+  <br>NaCl 空间填充 · BaTiO₃ 铜棕珠光
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/copper-111-pearl.png"><img src="docs/images/showcase/copper-111-pearl.png" width="365" alt="Cu(111) 铜棕珠光"></a>
+  <a href="docs/images/showcase/copper-111-space.png"><img src="docs/images/showcase/copper-111-space.png" width="365" alt="Cu(111) 空间填充"></a>
+  <br>Cu(111) 铜棕珠光 · Cu(111) 空间填充
+</p>
+
 <details>
-<summary>展开多巴胺、苯二聚体与水笼实算图</summary>
-
-**多巴胺**　气相中性单重态，GFN2-xTB 优化与波函数计算。ESP 图在 ρ = 0.001 e/bohr³ 的电子密度表面显示静电势。
+<summary>展开金刚石的 VMD 青碳高光视图</summary>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-homo-gloss.png"><img src="docs/images/showcase/dopamine-homo-gloss.png" width="365" alt="多巴胺 HOMO 正负相位，青碳球棍"></a>
-  <a href="docs/images/showcase/dopamine-esp.png"><img src="docs/images/showcase/dopamine-esp.png" width="365" alt="多巴胺电子密度表面静电势着色，含色尺"></a>
-  <br>HOMO · 静电势
+  <a href="docs/images/showcase/diamond-vmd.png"><img src="docs/images/showcase/diamond-vmd.png" width="540" alt="金刚石青碳高光"></a>
+  <br>金刚石青碳高光
 </p>
 
-**面对面苯二聚体**　GFN2-xTB 优化后的层间距为 3.30 Å，面内错位为 1.22 Å。同一波函数在 Multiwfn 中计算 IRI 与片段间 IGMH。
+</details>
+
+## 分子结构与预设
 
 <p align="center">
-  <a href="docs/images/showcase/benzene-stack-iri.png"><img src="docs/images/showcase/benzene-stack-iri.png" width="365" alt="苯二聚体 IRI 等值面，可见环内和环间区域"></a>
-  <a href="docs/images/showcase/benzene-stack-igmh.png"><img src="docs/images/showcase/benzene-stack-igmh.png" width="365" alt="苯二聚体片段间 IGMH 等值面，两个苯环之间的区域着色"></a>
-  <br>IRI · IGMH
+  <a href="docs/images/showcase/caffeine-es-default.png"><img src="docs/images/showcase/caffeine-es-default.png" width="236" alt="咖啡因"></a>
+  <a href="docs/images/showcase/crown-es-default.png"><img src="docs/images/showcase/crown-es-default.png" width="236" alt="18-冠-6"></a>
+  <a href="docs/images/showcase/trp-cage-es-default.png"><img src="docs/images/showcase/trp-cage-es-default.png" width="236" alt="Trp-cage 重原子视图"></a>
+  <br>咖啡因 · 18-冠-6 · Trp-cage 重原子视图
 </p>
 
-**水笼**　GFN2-xTB 优化的 (H₂O)₂₁ 示例，中央 1 个水与外层 20 个水。表面用 dₙₒᵣₘ 着色，指纹图由 8,927 对原生距离数据绘制。
+**多巴胺**　预设对照使用相同坐标和视角。
 
 <p align="center">
-  <a href="docs/images/showcase/water-cage-hirshfeld.png"><img src="docs/images/showcase/water-cage-hirshfeld.png" width="365" alt="21 水分子团簇中中央水的 Hirshfeld 表面，外层水以球棍绘制"></a>
-  <a href="docs/images/showcase/water-cage-fingerprint.png"><img src="docs/images/showcase/water-cage-fingerprint.png" width="330" alt="中央水的 Hirshfeld 指纹图，横轴为内部距离，纵轴为外部距离"></a>
-  <br>中央水 Hirshfeld 表面 · 二维指纹
+  <a href="docs/images/showcase/dopamine-es-default.png"><img src="docs/images/showcase/dopamine-es-default.png" width="236" alt="ES 内置"></a>
+  <a href="docs/images/showcase/dopamine-cpk.png"><img src="docs/images/showcase/dopamine-cpk.png" width="236" alt="CPK 球棍"></a>
+  <a href="docs/images/showcase/dopamine-pastel.png"><img src="docs/images/showcase/dopamine-pastel.png" width="236" alt="粉彩球棍"></a>
+  <br>ES 内置 · CPK 球棍 · 粉彩球棍
 </p>
 
-[查看更多原图、散点图和计算参数](docs/showcase.md)
+<p align="center">
+  <a href="docs/images/showcase/dopamine-pearl.png"><img src="docs/images/showcase/dopamine-pearl.png" width="315" alt="铜棕珠光"></a>
+  <a href="docs/images/showcase/dopamine-space.png"><img src="docs/images/showcase/dopamine-space.png" width="315" alt="空间填充"></a>
+  <br>铜棕珠光 · 空间填充
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/caffeine-pastel.png"><img src="docs/images/showcase/caffeine-pastel.png" width="315" alt="咖啡因粉彩"></a>
+  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="315" alt="咖啡因珠光"></a>
+  <br>咖啡因粉彩 · 咖啡因珠光
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/adamantane-es-default.png"><img src="docs/images/showcase/adamantane-es-default.png" width="315" alt="金刚烷球棍"></a>
+  <a href="docs/images/showcase/water-cage-structure.png"><img src="docs/images/showcase/water-cage-structure.png" width="315" alt="(H₂O)₂₁ 球棍"></a>
+  <br>金刚烷球棍 · (H₂O)₂₁ 球棍
+</p>
+
+<details>
+<summary>展开 VMD 青碳高光和更多分子预设</summary>
+
+<p align="center">
+  <a href="docs/images/showcase/dopamine-vmd.png"><img src="docs/images/showcase/dopamine-vmd.png" width="236" alt="多巴胺青碳高光"></a>
+  <a href="docs/images/showcase/crown-vmd.png"><img src="docs/images/showcase/crown-vmd.png" width="236" alt="18-冠-6 青碳高光"></a>
+  <a href="docs/images/showcase/trp-cage-vmd.png"><img src="docs/images/showcase/trp-cage-vmd.png" width="236" alt="Trp-cage 青碳高光"></a>
+  <br>多巴胺青碳高光 · 18-冠-6 青碳高光 · Trp-cage 青碳高光
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/crown-space.png"><img src="docs/images/showcase/crown-space.png" width="236" alt="18-冠-6 空间填充"></a>
+  <a href="docs/images/showcase/adamantane-cpk.png"><img src="docs/images/showcase/adamantane-cpk.png" width="236" alt="金刚烷 CPK"></a>
+  <a href="docs/images/showcase/adamantane-space.png"><img src="docs/images/showcase/adamantane-space.png" width="236" alt="金刚烷空间填充"></a>
+  <br>18-冠-6 空间填充 · 金刚烷 CPK · 金刚烷空间填充
+</p>
+
+<p align="center">
+  <a href="docs/images/showcase/water-cage-pastel.png"><img src="docs/images/showcase/water-cage-pastel.png" width="365" alt="(H₂O)₂₁ 粉彩"></a>
+  <a href="docs/images/showcase/trp-cage-pastel.png"><img src="docs/images/showcase/trp-cage-pastel.png" width="365" alt="Trp-cage 粉彩"></a>
+  <br>(H₂O)₂₁ 粉彩 · Trp-cage 粉彩
+</p>
 
 </details>
 
 ## 从结构到结果
 
-- **建模与输入。** 编辑分子和晶体、插入片段、从二维结构生成和预览三维模型，准备 Gaussian 或 ORCA 输入。
-- **构象与轨迹。** 组织混合采样、逐级优化和归簇。播放时保留逐帧键图、晶胞和冻结原子标记。
-- **反应路径。** 使用内坐标扫描、CI-NEB、FSM 或适用的双端 GSM，分析 TS、振动和 IRC。路径能量曲线可联动对应结构。
-- **后处理与出图。** 从结构和能量进入轨道、振动、NTO、静电势、IRI 或 IGMH 分析，编辑图表和色尺并导出图片。
+- **建模与输入。** 编辑分子、晶体和片段，从二维结构生成三维初猜，准备 Gaussian 与 ORCA 输入。
+- **构象与轨迹。** 组合采样、逐级优化和归簇，播放轨迹时查看逐帧连接、晶胞及冻结原子。
+- **反应路径与后处理。** 运行适用的内坐标扫描、CI-NEB、FSM 或双端 GSM，分析 TS、振动、IRC 和波函数。
 
 <details>
-<summary>展开 VMD 青碳建模、周期结构、构象搜索与波函数分析</summary>
+<summary>展开正式版工作台与 IRC 切帧实录</summary>
 
 <p align="center">
-  <a href="docs/images/showcase/workbench-modeling.png"><img src="docs/images/showcase/workbench-modeling.png" width="720" alt="Ester Studio 的 VMD 青碳高光显示预设"></a>
-  <a href="docs/images/showcase/workbench-wavefunction.png"><img src="docs/images/showcase/workbench-wavefunction.png" width="720" alt="ES 2.1.2 中实际生成多巴胺 GFN2-xTB 波函数后的分析工作台"></a>
-  <a href="docs/images/showcase/workbench-periodic.png"><img src="docs/images/showcase/workbench-periodic.png" width="720" alt="ES 2.1.2 建模工作台中的氯化钠周期结构"></a>
-  <a href="docs/images/showcase/workbench-conformer.png"><img src="docs/images/showcase/workbench-conformer.png" width="720" alt="ES 2.1.2 的构象搜索工作台与采样结果"></a>
-</p>
-
-</details>
-
-<details>
-<summary>展开 IRC 能量曲线与切帧实录</summary>
-
-<p align="center">
-   <a href="docs/images/showcase/workbench-irc.png"><img src="docs/images/showcase/workbench-irc.png" width="850" alt="ES 2.1.2 的 GFN2-xTB IRC 结果，选中的能量点与三维结构联动"></a>
-   <br>IRC 路径与能量曲线 · <a href="docs/images/showcase/workbench-irc.gif">观看选点切帧实录</a>
-</p>
-
-</details>
-
-2.1.2 在 Windows 11 验收机器上载入 **1,000 原子 × 1,000 帧 XYZ**，从选定文件到全部帧就绪用时 **17.27 秒**。 [测试条件与其余验收结果](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2#验收与性能)
-
-## 绘图预设
-
-<details>
-<summary>展开六种结构预设与轨道、表面和点线图对照</summary>
-
-以下三张图使用相同的多巴胺结构和视角。点击缩略图查看完整图片。
-
-<p align="center">
-  <a href="docs/images/showcase/dopamine-structure.png"><img src="docs/images/showcase/dopamine-structure.png" width="238" alt="VMD 青碳高光预设"></a>
-  <a href="docs/images/showcase/dopamine-preset-cpk.png"><img src="docs/images/showcase/dopamine-preset-cpk.png" width="238" alt="CPK 球棍预设"></a>
-  <a href="docs/images/showcase/dopamine-preset-pastel.png"><img src="docs/images/showcase/dopamine-preset-pastel.png" width="238" alt="粉彩球棍预设"></a>
-  <br>青碳高光 · CPK 球棍 · 粉彩球棍
+  <a href="docs/images/showcase/workbench-modeling.png"><img src="docs/images/showcase/workbench-modeling.png" width="365" alt="多巴胺建模工作台 · VMD 青碳高光"></a>
+  <a href="docs/images/showcase/workbench-periodic.png"><img src="docs/images/showcase/workbench-periodic.png" width="365" alt="氯化钠晶胞与周期成键实窗"></a>
+  <br>多巴胺建模工作台 · VMD 青碳高光 · 氯化钠晶胞与周期成键实窗
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-preset-line-art.png"><img src="docs/images/showcase/dopamine-preset-line-art.png" width="238" alt="元素线稿"></a>
-  <a href="docs/images/showcase/dopamine-preset-vesta-pearl.png"><img src="docs/images/showcase/dopamine-preset-vesta-pearl.png" width="238" alt="VESTA 铜棕珠光"></a>
-  <a href="docs/images/showcase/dopamine-preset-space-filling.png"><img src="docs/images/showcase/dopamine-preset-space-filling.png" width="238" alt="空间填充"></a>
-  <br>元素线稿 · 铜棕珠光 · 空间填充
+  <a href="docs/images/showcase/workbench-conformer.png"><img src="docs/images/showcase/workbench-conformer.png" width="365" alt="构象搜索工作台 · 实际 20 帧多巴胺采样"></a>
+  <a href="docs/images/showcase/workbench-wavefunction.png"><img src="docs/images/showcase/workbench-wavefunction.png" width="365" alt="多巴胺 GFN2-xTB 波函数与能量分析实窗"></a>
+  <br>构象搜索工作台 · 实际 20 帧多巴胺采样 · 多巴胺 GFN2-xTB 波函数与能量分析实窗
 </p>
 
-[轨道预设](docs/showcase.md#轨道预设) · [表面与相互作用配色](docs/showcase.md#表面与相互作用预设) · [空心与实心点线图](docs/showcase.md#点线图预设)
+<p align="center">
+  <a href="docs/images/showcase/workbench-irc.png"><img src="docs/images/showcase/workbench-irc.png" width="820" alt="GFN2-xTB IRC 反应路径实窗"></a>
+  <br>GFN2-xTB IRC 反应路径实窗
+</p>
+
+[播放 IRC 能量曲线选点实录](docs/images/showcase/workbench-irc.gif) · [2.1.2 验收与性能](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2#验收与性能)
 
 </details>
 
