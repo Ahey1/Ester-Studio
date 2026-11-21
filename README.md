@@ -68,11 +68,7 @@
   <br>多巴胺 GFN2-xTB 优化收敛曲线
 </p>
 
-[查看取值、单位和结构来源](docs/showcase.md)
-
 ## 光谱图集
-
-18 张紫外吸收、红外和拉曼图由 Ester Studio 根据 Gaussian 和 ORCA 的计算结果绘制。展开分组还可查看棒谱叠加、局部副图和强度柱图。
 
 <p align="center">
   <a href="docs/images/spectra/s01.png"><img src="docs/images/spectra/s01.png" width="365" alt="二乙烯基苯紫外吸收全谱"></a>
@@ -146,8 +142,6 @@
 </p>
 
 </details>
-
-[查看光谱参数、图号与计算来源](docs/spectra.md)
 
 ## 晶体与表面
 
