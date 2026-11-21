@@ -36,13 +36,12 @@
 <summary>展开多巴胺的 VESTA 风格轨道与电子密度</summary>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-homo-vesta.png"><img src="docs/images/showcase/dopamine-homo-vesta.png" width="236" alt="HOMO"></a>
-  <a href="docs/images/showcase/dopamine-lumo-vesta.png"><img src="docs/images/showcase/dopamine-lumo-vesta.png" width="236" alt="LUMO"></a>
-  <a href="docs/images/showcase/dopamine-density-vesta.png"><img src="docs/images/showcase/dopamine-density-vesta.png" width="236" alt="电子密度"></a>
-  <br>HOMO · LUMO · 电子密度
+  <a href="docs/images/showcase/dopamine-homo-vesta.png"><img src="docs/images/showcase/dopamine-homo-vesta.png" width="365" alt="多巴胺 HOMO"></a>
+  <a href="docs/images/showcase/dopamine-density-vesta.png"><img src="docs/images/showcase/dopamine-density-vesta.png" width="365" alt="多巴胺电子密度"></a>
+  <br>多巴胺 HOMO · 多巴胺电子密度
 </p>
 
-这组三张图沿用上方的构型和等值。轨道用黄色和青蓝色表示正、负相位，电子密度采用单色黄色。
+这两张图沿用上方的构型和等值。HOMO 用黄色和青蓝色表示正、负相位，电子密度采用单色黄色。
 
 </details>
 
