@@ -112,20 +112,20 @@
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-pearl.png"><img src="docs/images/showcase/dopamine-pearl.png" width="315" alt="铜棕珠光"></a>
-  <a href="docs/images/showcase/dopamine-space.png"><img src="docs/images/showcase/dopamine-space.png" width="315" alt="空间填充"></a>
+  <a href="docs/images/showcase/dopamine-pearl.png"><img src="docs/images/showcase/dopamine-pearl.png" width="365" alt="铜棕珠光"></a>
+  <a href="docs/images/showcase/dopamine-space.png"><img src="docs/images/showcase/dopamine-space.png" width="365" alt="空间填充"></a>
   <br>铜棕珠光 · 空间填充
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/caffeine-pastel.png"><img src="docs/images/showcase/caffeine-pastel.png" width="315" alt="咖啡因粉彩"></a>
-  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="315" alt="咖啡因珠光"></a>
+  <a href="docs/images/showcase/caffeine-pastel.png"><img src="docs/images/showcase/caffeine-pastel.png" width="365" alt="咖啡因粉彩"></a>
+  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="365" alt="咖啡因珠光"></a>
   <br>咖啡因粉彩 · 咖啡因珠光
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/adamantane-es-default.png"><img src="docs/images/showcase/adamantane-es-default.png" width="315" alt="金刚烷球棍"></a>
-  <a href="docs/images/showcase/water-cage-structure.png"><img src="docs/images/showcase/water-cage-structure.png" width="315" alt="(H₂O)₂₁ 球棍"></a>
+  <a href="docs/images/showcase/adamantane-es-default.png"><img src="docs/images/showcase/adamantane-es-default.png" width="365" alt="金刚烷球棍"></a>
+  <a href="docs/images/showcase/water-cage-structure.png"><img src="docs/images/showcase/water-cage-structure.png" width="365" alt="(H₂O)₂₁ 球棍"></a>
   <br>金刚烷球棍 · (H₂O)₂₁ 球棍
 </p>
 
