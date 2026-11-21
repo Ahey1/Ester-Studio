@@ -18,7 +18,7 @@
 
 ## 实算图集
 
-这些图来自实际优化后的结构、波函数和 Multiwfn 计算结果。等值面与散点采用 Ester Studio 启动默认外观。
+这些图来自实际优化后的结构、波函数和 Multiwfn 计算结果。主图的等值面预设和散点配色采用 Ester Studio 启动默认设置。
 
 <p align="center">
   <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="365" alt="多巴胺 HOMO"></a>
@@ -31,6 +31,20 @@
   <a href="docs/images/showcase/dopamine-density.png"><img src="docs/images/showcase/dopamine-density.png" width="365" alt="多巴胺电子密度"></a>
   <br>多巴胺 LUMO · 多巴胺电子密度
 </p>
+
+<details>
+<summary>展开多巴胺的 VESTA 风格轨道与电子密度</summary>
+
+<p align="center">
+  <a href="docs/images/showcase/dopamine-homo-vesta.png"><img src="docs/images/showcase/dopamine-homo-vesta.png" width="236" alt="HOMO"></a>
+  <a href="docs/images/showcase/dopamine-lumo-vesta.png"><img src="docs/images/showcase/dopamine-lumo-vesta.png" width="236" alt="LUMO"></a>
+  <a href="docs/images/showcase/dopamine-density-vesta.png"><img src="docs/images/showcase/dopamine-density-vesta.png" width="236" alt="电子密度"></a>
+  <br>HOMO · LUMO · 电子密度
+</p>
+
+这组三张图沿用上方的构型和等值。轨道用黄色和青蓝色表示正、负相位，电子密度采用单色黄色。
+
+</details>
 
 <p align="center">
   <a href="docs/images/showcase/benzene-stack-iri-arial.png"><img src="docs/images/showcase/benzene-stack-iri-arial.png" width="365" alt="苯二聚体 IRI"></a>
