@@ -7,9 +7,15 @@
 
 免费使用 · 源码公开 · Windows x64 便携版
 
-[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-source-code.zip) · [2.1.2 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2) · [光谱图集](#光谱图集) · [如何引用](#引用与许可)
+[如何引用](#推荐引用) · [下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-source-code.zip) · [2.1.2 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2) · [光谱图集](#光谱图集)
 
 </div>
+
+## 推荐引用
+
+> Zhang, Z. *Ester Studio*, version 2.1.2 [computer software]. GitHub, 2026. [2.1.2 发布页](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2)
+
+**请在参考文献中注明实际使用的 Ester Studio 版本。** 发表论文时，请说明软件用于哪一步。期刊条件允许时，请尽量在正文中标注引用。
 
 <p align="center">
   <a href="docs/images/showcase/workbench-modeling-es-default.png"><img src="docs/images/showcase/workbench-modeling-es-default.png" width="940" alt="Ester Studio 2.1.2 的建模工作台，使用 Ester Studio 内置默认预设显示多巴胺"></a>
@@ -285,10 +291,6 @@
 </details>
 
 ## 引用与许可
-
-使用 Ester Studio 开展研究并发表论文时，请说明软件用于哪一步，并在参考文献中注明实际使用的版本。期刊条件允许时，请尽量在论文正文中标注引用。
-
-> Zhang, Z. *Ester Studio*, version 2.1.2 [computer software]. GitHub, 2026. [2.1.2 发布页](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2)
 
 请同时引用研究中实际使用的方法、程序和数据来源。可以通过软件右上角「导出文献」核对条目。引用义务、书面通知和按免费许可使用的条件见 [LICENSE.txt](LICENSE.txt)。第三方组件适用各自的许可。
 
