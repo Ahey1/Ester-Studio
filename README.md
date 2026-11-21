@@ -17,9 +17,14 @@
 
 **请在参考文献中注明实际使用的 Ester Studio 版本。** 发表论文时，请说明软件用于哪一步。期刊条件允许时，请尽量在正文中标注引用。
 
+## 工作台预览
+
 <p align="center">
-  <a href="docs/images/showcase/workbench-modeling-es-default.png"><img src="docs/images/showcase/workbench-modeling-es-default.png" width="940" alt="Ester Studio 2.1.2 的建模工作台，使用 Ester Studio 内置默认预设显示多巴胺"></a>
-  <br>Ester Studio 2.1.2 建模工作台 · 内置默认预设 · GFN2-xTB 优化后的多巴胺
+  <a href="docs/images/showcase/workbench-modeling-es-default.png"><img src="docs/images/showcase/workbench-modeling-es-default.png" width="23%" align="middle" alt="ES 默认建模"></a>
+  <a href="docs/images/showcase/workbench-periodic.png"><img src="docs/images/showcase/workbench-periodic.png" width="23%" align="middle" alt="周期晶体"></a>
+  <a href="docs/images/showcase/workbench-conformer.png"><img src="docs/images/showcase/workbench-conformer.png" width="23%" align="middle" alt="构象搜索"></a>
+  <a href="docs/images/showcase/workbench-wavefunction.png"><img src="docs/images/showcase/workbench-wavefunction.png" width="23%" align="middle" alt="波函数后处理"></a>
+  <br>ES 默认建模 · 周期晶体 · 构象搜索 · 波函数后处理
 </p>
 
 ## 实算图集
@@ -27,221 +32,125 @@
 这些图来自实际优化后的结构、波函数和 Multiwfn 计算结果。主图的等值面预设和散点配色采用 Ester Studio 启动默认设置。
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="365" alt="多巴胺 HOMO"></a>
-  <a href="docs/images/showcase/dopamine-esp-arial.png"><img src="docs/images/showcase/dopamine-esp-arial.png" width="365" alt="多巴胺静电势"></a>
-  <br>多巴胺 HOMO · 多巴胺静电势
+  <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="23%" align="middle" alt="多巴胺 HOMO"></a>
+  <a href="docs/images/showcase/dopamine-lumo.png"><img src="docs/images/showcase/dopamine-lumo.png" width="23%" align="middle" alt="多巴胺 LUMO"></a>
+  <a href="docs/images/showcase/dopamine-esp-arial.png"><img src="docs/images/showcase/dopamine-esp-arial.png" width="23%" align="middle" alt="多巴胺静电势"></a>
+  <a href="docs/images/showcase/dopamine-density.png"><img src="docs/images/showcase/dopamine-density.png" width="23%" align="middle" alt="多巴胺电子密度"></a>
+  <br>多巴胺 HOMO · 多巴胺 LUMO · 多巴胺静电势 · 多巴胺电子密度
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-lumo.png"><img src="docs/images/showcase/dopamine-lumo.png" width="365" alt="多巴胺 LUMO"></a>
-  <a href="docs/images/showcase/dopamine-density.png"><img src="docs/images/showcase/dopamine-density.png" width="365" alt="多巴胺电子密度"></a>
-  <br>多巴胺 LUMO · 多巴胺电子密度
+  <a href="docs/images/showcase/benzene-stack-iri-arial.png"><img src="docs/images/showcase/benzene-stack-iri-arial.png" width="23%" align="middle" alt="苯二聚体 IRI"></a>
+  <a href="docs/images/showcase/benzene-stack-iri-scatter.png"><img src="docs/images/showcase/benzene-stack-iri-scatter.png" width="23%" align="middle" alt="IRI 散点"></a>
+  <a href="docs/images/showcase/benzene-stack-igmh-arial.png"><img src="docs/images/showcase/benzene-stack-igmh-arial.png" width="23%" align="middle" alt="苯二聚体 IGMH"></a>
+  <a href="docs/images/showcase/benzene-stack-igmh-scatter.png"><img src="docs/images/showcase/benzene-stack-igmh-scatter.png" width="23%" align="middle" alt="IGMH 散点"></a>
+  <br>苯二聚体 IRI · IRI 散点 · 苯二聚体 IGMH · IGMH 散点
 </p>
 
 <details>
-<summary>展开多巴胺的 VESTA 风格轨道与电子密度</summary>
+<summary>展开 VESTA 对照与水笼分析</summary>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-homo-vesta.png"><img src="docs/images/showcase/dopamine-homo-vesta.png" width="365" alt="多巴胺 HOMO"></a>
-  <a href="docs/images/showcase/dopamine-density-vesta.png"><img src="docs/images/showcase/dopamine-density-vesta.png" width="365" alt="多巴胺电子密度"></a>
-  <br>多巴胺 HOMO · 多巴胺电子密度
+  <a href="docs/images/showcase/dopamine-homo-vesta.png"><img src="docs/images/showcase/dopamine-homo-vesta.png" width="23%" align="middle" alt="VESTA 风格 HOMO"></a>
+  <a href="docs/images/showcase/dopamine-density-vesta.png"><img src="docs/images/showcase/dopamine-density-vesta.png" width="23%" align="middle" alt="VESTA 风格电子密度"></a>
+  <a href="docs/images/showcase/water-cage-hirshfeld-arial.png"><img src="docs/images/showcase/water-cage-hirshfeld-arial.png" width="23%" align="middle" alt="水笼 Hirshfeld 表面"></a>
+  <a href="docs/images/showcase/water-cage-fingerprint.png"><img src="docs/images/showcase/water-cage-fingerprint.png" width="23%" align="middle" alt="水笼指纹图"></a>
+  <br>VESTA 风格 HOMO · VESTA 风格电子密度 · 水笼 Hirshfeld 表面 · 水笼指纹图
 </p>
-
-这两张图沿用上方的构型和等值。HOMO 用黄色和青蓝色表示正、负相位，电子密度采用单色黄色。
 
 </details>
-
-<p align="center">
-  <a href="docs/images/showcase/benzene-stack-iri-arial.png"><img src="docs/images/showcase/benzene-stack-iri-arial.png" width="365" alt="苯二聚体 IRI"></a>
-  <a href="docs/images/showcase/benzene-stack-igmh-arial.png"><img src="docs/images/showcase/benzene-stack-igmh-arial.png" width="365" alt="苯二聚体 IGMH"></a>
-  <br>苯二聚体 IRI · 苯二聚体 IGMH
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/benzene-stack-iri-scatter.png"><img src="docs/images/showcase/benzene-stack-iri-scatter.png" width="365" alt="IRI 散点图"></a>
-  <a href="docs/images/showcase/benzene-stack-igmh-scatter.png"><img src="docs/images/showcase/benzene-stack-igmh-scatter.png" width="365" alt="IGMH 散点图"></a>
-  <br>IRI 散点图 · IGMH 散点图
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/water-cage-hirshfeld-arial.png"><img src="docs/images/showcase/water-cage-hirshfeld-arial.png" width="365" alt="中央水 Hirshfeld 表面"></a>
-  <a href="docs/images/showcase/water-cage-fingerprint.png"><img src="docs/images/showcase/water-cage-fingerprint.png" width="365" alt="水笼指纹图"></a>
-  <br>中央水 Hirshfeld 表面 · 水笼指纹图
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/dopamine-optimization-hollow.png"><img src="docs/images/showcase/dopamine-optimization-hollow.png" width="560" alt="多巴胺 GFN2-xTB 优化收敛曲线"></a>
-  <br>多巴胺 GFN2-xTB 优化收敛曲线
-</p>
 
 ## 光谱图集
 
 <p align="center">
-  <a href="docs/images/spectra/s01.png"><img src="docs/images/spectra/s01.png" width="365" alt="二乙烯基苯紫外吸收全谱"></a>
-  <a href="docs/images/spectra/s03.png"><img src="docs/images/spectra/s03.png" width="365" alt="吸收主峰区局部放大"></a>
-  <br>二乙烯基苯紫外吸收全谱 · 吸收主峰区局部放大
-</p>
-
-<p align="center">
-  <a href="docs/images/spectra/s09.png"><img src="docs/images/spectra/s09.png" width="365" alt="红外指纹区渐变填色"></a>
-  <a href="docs/images/spectra/s17.png"><img src="docs/images/spectra/s17.png" width="365" alt="拉曼活性渐变柱"></a>
-  <br>红外指纹区渐变填色 · 拉曼活性渐变柱
+  <a href="docs/images/spectra/s01.png"><img src="docs/images/spectra/s01.png" width="23%" align="middle" alt="紫外吸收全谱"></a>
+  <a href="docs/images/spectra/s03.png"><img src="docs/images/spectra/s03.png" width="23%" align="middle" alt="吸收主峰放大"></a>
+  <a href="docs/images/spectra/s09.png"><img src="docs/images/spectra/s09.png" width="23%" align="middle" alt="红外指纹区渐变"></a>
+  <a href="docs/images/spectra/s17.png"><img src="docs/images/spectra/s17.png" width="23%" align="middle" alt="拉曼活性渐变柱"></a>
+  <br>紫外吸收全谱 · 吸收主峰放大 · 红外指纹区渐变 · 拉曼活性渐变柱
 </p>
 
 <details>
-<summary>展开更多紫外吸收图（5 张）</summary>
+<summary>展开紫外与红外谱（12 张）</summary>
 
 <p align="center">
-  <a href="docs/images/spectra/s02.png"><img src="docs/images/spectra/s02.png" width="365" alt="波长轴 · 渐变填色"></a>
-  <a href="docs/images/spectra/s04.png"><img src="docs/images/spectra/s04.png" width="365" alt="吸收包络与跃迁棒谱"></a>
-  <br>波长轴 · 渐变填色 · 吸收包络与跃迁棒谱
+  <a href="docs/images/spectra/s02.png"><img src="docs/images/spectra/s02.png" width="23%" align="middle" alt="波长轴渐变填色"></a>
+  <a href="docs/images/spectra/s04.png"><img src="docs/images/spectra/s04.png" width="23%" align="middle" alt="吸收包络与棒谱"></a>
+  <a href="docs/images/spectra/s05.png"><img src="docs/images/spectra/s05.png" width="23%" align="middle" alt="振子强度实色柱"></a>
+  <a href="docs/images/spectra/s06.png"><img src="docs/images/spectra/s06.png" width="23%" align="middle" alt="ORCA 振子强度渐变柱"></a>
+  <br>波长轴渐变填色 · 吸收包络与棒谱 · 振子强度实色柱 · ORCA 振子强度渐变柱
 </p>
 
 <p align="center">
-  <a href="docs/images/spectra/s05.png"><img src="docs/images/spectra/s05.png" width="365" alt="振子强度 · 实色柱"></a>
-  <a href="docs/images/spectra/s06.png"><img src="docs/images/spectra/s06.png" width="365" alt="ORCA 振子强度渐变柱"></a>
-  <br>振子强度 · 实色柱 · ORCA 振子强度渐变柱
+  <a href="docs/images/spectra/s07.png"><img src="docs/images/spectra/s07.png" width="23%" align="middle" alt="ORCA 吸收谱"></a>
+  <a href="docs/images/spectra/s19.png"><img src="docs/images/spectra/s19.png" width="23%" align="middle" alt="ORCA 吸收主峰放大"></a>
+  <a href="docs/images/spectra/s08.png"><img src="docs/images/spectra/s08.png" width="23%" align="middle" alt="红外全谱"></a>
+  <a href="docs/images/spectra/s10.png"><img src="docs/images/spectra/s10.png" width="23%" align="middle" alt="红外指纹区副图"></a>
+  <br>ORCA 吸收谱 · ORCA 吸收主峰放大 · 红外全谱 · 红外指纹区副图
 </p>
 
 <p align="center">
-  <a href="docs/images/spectra/s07.png"><img src="docs/images/spectra/s07.png" width="365" alt="ORCA 波长轴吸收全谱"></a>
-  <br>ORCA 波长轴吸收全谱
+  <a href="docs/images/spectra/s11.png"><img src="docs/images/spectra/s11.png" width="23%" align="middle" alt="水的红外全谱"></a>
+  <a href="docs/images/spectra/s20.png"><img src="docs/images/spectra/s20.png" width="23%" align="middle" alt="水的 O–H 伸缩区"></a>
+  <a href="docs/images/spectra/s12.png"><img src="docs/images/spectra/s12.png" width="23%" align="middle" alt="醇的红外全谱"></a>
+  <a href="docs/images/spectra/s13.png"><img src="docs/images/spectra/s13.png" width="23%" align="middle" alt="红外强度渐变柱"></a>
+  <br>水的红外全谱 · 水的 O–H 伸缩区 · 醇的红外全谱 · 红外强度渐变柱
 </p>
 
 </details>
 
 <details>
-<summary>展开更多红外图（5 张）</summary>
+<summary>展开拉曼谱（4 张）</summary>
 
 <p align="center">
-  <a href="docs/images/spectra/s08.png"><img src="docs/images/spectra/s08.png" width="365" alt="红外全谱"></a>
-  <a href="docs/images/spectra/s10.png"><img src="docs/images/spectra/s10.png" width="365" alt="全谱＋指纹区副图"></a>
-  <br>红外全谱 · 全谱＋指纹区副图
-</p>
-
-<p align="center">
-  <a href="docs/images/spectra/s11.png"><img src="docs/images/spectra/s11.png" width="365" alt="水的红外全谱"></a>
-  <a href="docs/images/spectra/s12.png"><img src="docs/images/spectra/s12.png" width="365" alt="醇的红外全谱 · 渐变填色"></a>
-  <br>水的红外全谱 · 醇的红外全谱 · 渐变填色
-</p>
-
-<p align="center">
-  <a href="docs/images/spectra/s13.png"><img src="docs/images/spectra/s13.png" width="365" alt="指纹区 IR 强度 · 渐变柱"></a>
-  <br>指纹区 IR 强度 · 渐变柱
+  <a href="docs/images/spectra/s14.png"><img src="docs/images/spectra/s14.png" width="23%" align="middle" alt="Gaussian Stokes 全谱"></a>
+  <a href="docs/images/spectra/s15.png"><img src="docs/images/spectra/s15.png" width="23%" align="middle" alt="Stokes 主峰区放大"></a>
+  <a href="docs/images/spectra/s16.png"><img src="docs/images/spectra/s16.png" width="23%" align="middle" alt="Stokes 主峰区副图"></a>
+  <a href="docs/images/spectra/s18.png"><img src="docs/images/spectra/s18.png" width="23%" align="middle" alt="ORCA Stokes 全谱"></a>
+  <br>Gaussian Stokes 全谱 · Stokes 主峰区放大 · Stokes 主峰区副图 · ORCA Stokes 全谱
 </p>
 
 </details>
 
-<details>
-<summary>展开更多拉曼图（4 张）</summary>
+## 结构与外观
+
+### 分子结构与预设
 
 <p align="center">
-  <a href="docs/images/spectra/s14.png"><img src="docs/images/spectra/s14.png" width="365" alt="Gaussian Stokes 全谱"></a>
-  <a href="docs/images/spectra/s15.png"><img src="docs/images/spectra/s15.png" width="365" alt="主峰区放大 · 渐变填色"></a>
-  <br>Gaussian Stokes 全谱 · 主峰区放大 · 渐变填色
+  <a href="docs/images/showcase/dopamine-es-default.png"><img src="docs/images/showcase/dopamine-es-default.png" width="23%" align="middle" alt="多巴胺 · ES 内置"></a>
+  <a href="docs/images/showcase/adamantane-cpk.png"><img src="docs/images/showcase/adamantane-cpk.png" width="23%" align="middle" alt="金刚烷 · CPK 球棍"></a>
+  <a href="docs/images/showcase/caffeine-pastel.png"><img src="docs/images/showcase/caffeine-pastel.png" width="23%" align="middle" alt="咖啡因 · 粉彩球棍"></a>
+  <a href="docs/images/showcase/crown-space.png"><img src="docs/images/showcase/crown-space.png" width="23%" align="middle" alt="18-冠-6 · 空间填充"></a>
+  <br>多巴胺 · ES 内置 · 金刚烷 · CPK 球棍 · 咖啡因 · 粉彩球棍 · 18-冠-6 · 空间填充
 </p>
 
-<p align="center">
-  <a href="docs/images/spectra/s16.png"><img src="docs/images/spectra/s16.png" width="365" alt="Stokes 全谱＋主峰区副图"></a>
-  <a href="docs/images/spectra/s18.png"><img src="docs/images/spectra/s18.png" width="365" alt="ORCA 数值频率 Stokes 全谱"></a>
-  <br>Stokes 全谱＋主峰区副图 · ORCA 数值频率 Stokes 全谱
-</p>
-
-</details>
-
-## 晶体与表面
+### 晶体与表面
 
 <p align="center">
-  <a href="docs/images/showcase/nacl-crystal.png"><img src="docs/images/showcase/nacl-crystal.png" width="365" alt="岩盐型 NaCl"></a>
-  <a href="docs/images/showcase/diamond-crystal.png"><img src="docs/images/showcase/diamond-crystal.png" width="365" alt="金刚石晶胞"></a>
-  <br>岩盐型 NaCl · 金刚石晶胞
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/barium-titanate-crystal.png"><img src="docs/images/showcase/barium-titanate-crystal.png" width="365" alt="立方 BaTiO₃"></a>
-  <a href="docs/images/showcase/copper-111-crystal.png"><img src="docs/images/showcase/copper-111-crystal.png" width="365" alt="Cu(111) 四层表面"></a>
-  <br>立方 BaTiO₃ · Cu(111) 四层表面
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/nacl-space.png"><img src="docs/images/showcase/nacl-space.png" width="365" alt="NaCl 空间填充"></a>
-  <a href="docs/images/showcase/barium-titanate-pearl.png"><img src="docs/images/showcase/barium-titanate-pearl.png" width="365" alt="BaTiO₃ 铜棕珠光"></a>
-  <br>NaCl 空间填充 · BaTiO₃ 铜棕珠光
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/copper-111-pearl.png"><img src="docs/images/showcase/copper-111-pearl.png" width="365" alt="Cu(111) 铜棕珠光"></a>
-  <a href="docs/images/showcase/copper-111-space.png"><img src="docs/images/showcase/copper-111-space.png" width="365" alt="Cu(111) 空间填充"></a>
-  <br>Cu(111) 铜棕珠光 · Cu(111) 空间填充
+  <a href="docs/images/showcase/nacl-crystal.png"><img src="docs/images/showcase/nacl-crystal.png" width="23%" align="middle" alt="岩盐型 NaCl"></a>
+  <a href="docs/images/showcase/diamond-crystal.png"><img src="docs/images/showcase/diamond-crystal.png" width="23%" align="middle" alt="金刚石晶胞"></a>
+  <a href="docs/images/showcase/barium-titanate-crystal.png"><img src="docs/images/showcase/barium-titanate-crystal.png" width="23%" align="middle" alt="立方 BaTiO₃"></a>
+  <a href="docs/images/showcase/copper-111-crystal.png"><img src="docs/images/showcase/copper-111-crystal.png" width="23%" align="middle" alt="Cu(111) 四层表面"></a>
+  <br>岩盐型 NaCl · 金刚石晶胞 · 立方 BaTiO₃ · Cu(111) 四层表面
 </p>
 
 <details>
-<summary>展开金刚石的 VMD 青碳高光视图</summary>
+<summary>展开更多分子与晶体外观（8 张）</summary>
 
 <p align="center">
-  <a href="docs/images/showcase/diamond-vmd.png"><img src="docs/images/showcase/diamond-vmd.png" width="540" alt="金刚石青碳高光"></a>
-  <br>金刚石青碳高光
-</p>
-
-</details>
-
-## 分子结构与预设
-
-<p align="center">
-  <a href="docs/images/showcase/caffeine-es-default.png"><img src="docs/images/showcase/caffeine-es-default.png" width="236" alt="咖啡因"></a>
-  <a href="docs/images/showcase/crown-es-default.png"><img src="docs/images/showcase/crown-es-default.png" width="236" alt="18-冠-6"></a>
-  <a href="docs/images/showcase/trp-cage-es-default.png"><img src="docs/images/showcase/trp-cage-es-default.png" width="236" alt="Trp-cage 重原子视图"></a>
-  <br>咖啡因 · 18-冠-6 · Trp-cage 重原子视图
-</p>
-
-**多巴胺**　预设对照使用相同坐标和视角。
-
-<p align="center">
-  <a href="docs/images/showcase/dopamine-es-default.png"><img src="docs/images/showcase/dopamine-es-default.png" width="236" alt="ES 内置"></a>
-  <a href="docs/images/showcase/dopamine-cpk.png"><img src="docs/images/showcase/dopamine-cpk.png" width="236" alt="CPK 球棍"></a>
-  <a href="docs/images/showcase/dopamine-pastel.png"><img src="docs/images/showcase/dopamine-pastel.png" width="236" alt="粉彩球棍"></a>
-  <br>ES 内置 · CPK 球棍 · 粉彩球棍
+  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="23%" align="middle" alt="咖啡因 · 铜棕珠光"></a>
+  <a href="docs/images/showcase/barium-titanate-pearl.png"><img src="docs/images/showcase/barium-titanate-pearl.png" width="23%" align="middle" alt="BaTiO₃ · 铜棕珠光"></a>
+  <a href="docs/images/showcase/trp-cage-vmd.png"><img src="docs/images/showcase/trp-cage-vmd.png" width="23%" align="middle" alt="Trp-cage · VMD 青碳"></a>
+  <a href="docs/images/showcase/diamond-vmd.png"><img src="docs/images/showcase/diamond-vmd.png" width="23%" align="middle" alt="金刚石 · VMD 青碳"></a>
+  <br>咖啡因 · 铜棕珠光 · BaTiO₃ · 铜棕珠光 · Trp-cage · VMD 青碳 · 金刚石 · VMD 青碳
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-pearl.png"><img src="docs/images/showcase/dopamine-pearl.png" width="365" alt="铜棕珠光"></a>
-  <a href="docs/images/showcase/dopamine-space.png"><img src="docs/images/showcase/dopamine-space.png" width="365" alt="空间填充"></a>
-  <br>铜棕珠光 · 空间填充
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/caffeine-pastel.png"><img src="docs/images/showcase/caffeine-pastel.png" width="365" alt="咖啡因粉彩"></a>
-  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="365" alt="咖啡因珠光"></a>
-  <br>咖啡因粉彩 · 咖啡因珠光
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/adamantane-es-default.png"><img src="docs/images/showcase/adamantane-es-default.png" width="365" alt="金刚烷球棍"></a>
-  <a href="docs/images/showcase/water-cage-structure.png"><img src="docs/images/showcase/water-cage-structure.png" width="365" alt="(H₂O)₂₁ 球棍"></a>
-  <br>金刚烷球棍 · (H₂O)₂₁ 球棍
-</p>
-
-<details>
-<summary>展开 VMD 青碳高光和更多分子预设</summary>
-
-<p align="center">
-  <a href="docs/images/showcase/dopamine-vmd.png"><img src="docs/images/showcase/dopamine-vmd.png" width="236" alt="多巴胺青碳高光"></a>
-  <a href="docs/images/showcase/crown-vmd.png"><img src="docs/images/showcase/crown-vmd.png" width="236" alt="18-冠-6 青碳高光"></a>
-  <a href="docs/images/showcase/trp-cage-vmd.png"><img src="docs/images/showcase/trp-cage-vmd.png" width="236" alt="Trp-cage 青碳高光"></a>
-  <br>多巴胺青碳高光 · 18-冠-6 青碳高光 · Trp-cage 青碳高光
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/crown-space.png"><img src="docs/images/showcase/crown-space.png" width="236" alt="18-冠-6 空间填充"></a>
-  <a href="docs/images/showcase/adamantane-cpk.png"><img src="docs/images/showcase/adamantane-cpk.png" width="236" alt="金刚烷 CPK"></a>
-  <a href="docs/images/showcase/adamantane-space.png"><img src="docs/images/showcase/adamantane-space.png" width="236" alt="金刚烷空间填充"></a>
-  <br>18-冠-6 空间填充 · 金刚烷 CPK · 金刚烷空间填充
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/water-cage-pastel.png"><img src="docs/images/showcase/water-cage-pastel.png" width="365" alt="(H₂O)₂₁ 粉彩"></a>
-  <a href="docs/images/showcase/trp-cage-pastel.png"><img src="docs/images/showcase/trp-cage-pastel.png" width="365" alt="Trp-cage 粉彩"></a>
-  <br>(H₂O)₂₁ 粉彩 · Trp-cage 粉彩
+  <a href="docs/images/showcase/nacl-space.png"><img src="docs/images/showcase/nacl-space.png" width="23%" align="middle" alt="NaCl · 空间填充"></a>
+  <a href="docs/images/showcase/barium-titanate-space.png"><img src="docs/images/showcase/barium-titanate-space.png" width="23%" align="middle" alt="BaTiO₃ · 空间填充"></a>
+  <a href="docs/images/showcase/copper-111-space.png"><img src="docs/images/showcase/copper-111-space.png" width="23%" align="middle" alt="Cu(111) · 空间填充"></a>
+  <a href="docs/images/showcase/copper-111-pearl.png"><img src="docs/images/showcase/copper-111-pearl.png" width="23%" align="middle" alt="Cu(111) · 铜棕珠光"></a>
+  <br>NaCl · 空间填充 · BaTiO₃ · 空间填充 · Cu(111) · 空间填充 · Cu(111) · 铜棕珠光
 </p>
 
 </details>
@@ -253,26 +162,17 @@
 - **反应路径与后处理。** 运行适用的内坐标扫描、CI-NEB、FSM 或双端 GSM，分析 TS、振动、IRC 和波函数。
 
 <details>
-<summary>展开正式版工作台与 IRC 切帧实录</summary>
+<summary>展开工作台与反应路径实录</summary>
 
 <p align="center">
-  <a href="docs/images/showcase/workbench-modeling.png"><img src="docs/images/showcase/workbench-modeling.png" width="365" alt="多巴胺建模工作台 · VMD 青碳高光"></a>
-  <a href="docs/images/showcase/workbench-periodic.png"><img src="docs/images/showcase/workbench-periodic.png" width="365" alt="氯化钠晶胞与周期成键实窗"></a>
-  <br>多巴胺建模工作台 · VMD 青碳高光 · 氯化钠晶胞与周期成键实窗
+  <a href="docs/images/showcase/workbench-modeling.png"><img src="docs/images/showcase/workbench-modeling.png" width="23%" align="middle" alt="VMD 建模实窗"></a>
+  <a href="docs/images/showcase/dopamine-optimization-hollow.png"><img src="docs/images/showcase/dopamine-optimization-hollow.png" width="23%" align="middle" alt="多巴胺优化收敛"></a>
+  <a href="docs/images/showcase/workbench-irc.png"><img src="docs/images/showcase/workbench-irc.png" width="23%" align="middle" alt="IRC 反应路径"></a>
+  <a href="docs/images/showcase/workbench-irc.gif"><img src="docs/images/showcase/workbench-irc.gif" width="23%" align="middle" alt="IRC 切帧实录"></a>
+  <br>VMD 建模实窗 · 多巴胺优化收敛 · IRC 反应路径 · IRC 切帧实录
 </p>
 
-<p align="center">
-  <a href="docs/images/showcase/workbench-conformer.png"><img src="docs/images/showcase/workbench-conformer.png" width="365" alt="构象搜索工作台 · 实际 20 帧多巴胺采样"></a>
-  <a href="docs/images/showcase/workbench-wavefunction.png"><img src="docs/images/showcase/workbench-wavefunction.png" width="365" alt="多巴胺 GFN2-xTB 波函数与能量分析实窗"></a>
-  <br>构象搜索工作台 · 实际 20 帧多巴胺采样 · 多巴胺 GFN2-xTB 波函数与能量分析实窗
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/workbench-irc.png"><img src="docs/images/showcase/workbench-irc.png" width="820" alt="GFN2-xTB IRC 反应路径实窗"></a>
-  <br>GFN2-xTB IRC 反应路径实窗
-</p>
-
-[播放 IRC 能量曲线选点实录](docs/images/showcase/workbench-irc.gif) · [2.1.2 验收与性能](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2#验收与性能)
+[2.1.2 验收与性能](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2#验收与性能)
 
 </details>
 
