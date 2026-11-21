@@ -7,7 +7,7 @@
 
 免费使用 · 源码公开 · Windows x64 便携版
 
-[如何引用](#推荐引用) · [下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-source-code.zip) · [2.1.2 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2) · [数据图](#数据图)
+[如何引用](#推荐引用) · [下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-source-code.zip) · [2.1.2 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2) · [轨道与静电势](#实算图例与结构外观) · [数据图](#数据图)
 
 </div>
 
@@ -18,11 +18,11 @@
 **请在参考文献中注明实际使用的 Ester Studio 版本。** 发表论文时，请说明软件用于哪一步。期刊条件允许时，请尽量在正文中标注引用。
 
 <p align="center">
-  <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="23%" align="middle" alt="多巴胺 HOMO"></a>
-  <a href="docs/images/showcase/dopamine-lumo.png"><img src="docs/images/showcase/dopamine-lumo.png" width="23%" align="middle" alt="多巴胺 LUMO"></a>
-  <a href="docs/images/showcase/dopamine-esp-arial.png"><img src="docs/images/showcase/dopamine-esp-arial.png" width="23%" align="middle" alt="多巴胺静电势"></a>
-  <a href="docs/images/showcase/dopamine-density.png"><img src="docs/images/showcase/dopamine-density.png" width="23%" align="middle" alt="多巴胺电子密度"></a>
-  <br>多巴胺 HOMO · 多巴胺 LUMO · 多巴胺静电势 · 多巴胺电子密度
+  <a href="docs/images/showcase/dopamine-es-default.png"><img src="docs/images/showcase/dopamine-es-default.png" width="23%" align="middle" alt="多巴胺 · ES 内置"></a>
+  <a href="docs/images/showcase/adamantane-cpk.png"><img src="docs/images/showcase/adamantane-cpk.png" width="23%" align="middle" alt="金刚烷 · CPK 球棍"></a>
+  <a href="docs/images/showcase/water-cage-pastel.png"><img src="docs/images/showcase/water-cage-pastel.png" width="23%" align="middle" alt="水笼 · 粉彩球棍"></a>
+  <a href="docs/images/showcase/crown-space.png"><img src="docs/images/showcase/crown-space.png" width="23%" align="middle" alt="18-冠-6 · 空间填充"></a>
+  <br>多巴胺 · ES 内置 · 金刚烷 · CPK 球棍 · 水笼 · 粉彩球棍 · 18-冠-6 · 空间填充
 </p>
 
 ## 工作台预览
@@ -51,28 +51,32 @@
 
 ## 实算图例与结构外观
 
+### ES 默认轨道与表面静电势
+
+<p align="center">
+  <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="23%" align="middle" alt="多巴胺 HOMO"></a>
+  <a href="docs/images/showcase/dopamine-lumo.png"><img src="docs/images/showcase/dopamine-lumo.png" width="23%" align="middle" alt="多巴胺 LUMO"></a>
+  <a href="docs/images/showcase/dopamine-esp-arial.png"><img src="docs/images/showcase/dopamine-esp-arial.png" width="23%" align="middle" alt="分子表面静电势（ESP）着色"></a>
+  <a href="docs/images/showcase/dopamine-density.png"><img src="docs/images/showcase/dopamine-density.png" width="23%" align="middle" alt="多巴胺电子密度"></a>
+  <br>多巴胺 HOMO · 多巴胺 LUMO · 分子表面静电势（ESP）着色 · 多巴胺电子密度
+</p>
+
+### 相互作用与结构预设
+
 <p align="center">
   <a href="docs/images/showcase/benzene-stack-iri-arial.png"><img src="docs/images/showcase/benzene-stack-iri-arial.png" width="23%" align="middle" alt="苯二聚体 IRI"></a>
   <a href="docs/images/showcase/benzene-stack-igmh-arial.png"><img src="docs/images/showcase/benzene-stack-igmh-arial.png" width="23%" align="middle" alt="苯二聚体 IGMH"></a>
   <a href="docs/images/showcase/water-cage-hirshfeld-arial.png"><img src="docs/images/showcase/water-cage-hirshfeld-arial.png" width="23%" align="middle" alt="水笼 Hirshfeld 表面"></a>
-  <a href="docs/images/showcase/water-cage-pastel.png"><img src="docs/images/showcase/water-cage-pastel.png" width="23%" align="middle" alt="水笼 · 粉彩球棍"></a>
-  <br>苯二聚体 IRI · 苯二聚体 IGMH · 水笼 Hirshfeld 表面 · 水笼 · 粉彩球棍
+  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="23%" align="middle" alt="咖啡因 · 铜棕珠光"></a>
+  <br>苯二聚体 IRI · 苯二聚体 IGMH · 水笼 Hirshfeld 表面 · 咖啡因 · 铜棕珠光
 </p>
 
 <p align="center">
   <a href="docs/images/showcase/dopamine-homo-vesta.png"><img src="docs/images/showcase/dopamine-homo-vesta.png" width="23%" align="middle" alt="VESTA 风格 HOMO"></a>
   <a href="docs/images/showcase/dopamine-density-vesta.png"><img src="docs/images/showcase/dopamine-density-vesta.png" width="23%" align="middle" alt="VESTA 风格电子密度"></a>
-  <a href="docs/images/showcase/dopamine-es-default.png"><img src="docs/images/showcase/dopamine-es-default.png" width="23%" align="middle" alt="多巴胺 · ES 内置"></a>
-  <a href="docs/images/showcase/adamantane-cpk.png"><img src="docs/images/showcase/adamantane-cpk.png" width="23%" align="middle" alt="金刚烷 · CPK 球棍"></a>
-  <br>VESTA 风格 HOMO · VESTA 风格电子密度 · 多巴胺 · ES 内置 · 金刚烷 · CPK 球棍
-</p>
-
-<p align="center">
-  <a href="docs/images/showcase/crown-space.png"><img src="docs/images/showcase/crown-space.png" width="23%" align="middle" alt="18-冠-6 · 空间填充"></a>
-  <a href="docs/images/showcase/caffeine-pearl.png"><img src="docs/images/showcase/caffeine-pearl.png" width="23%" align="middle" alt="咖啡因 · 铜棕珠光"></a>
   <a href="docs/images/showcase/trp-cage-vmd.png"><img src="docs/images/showcase/trp-cage-vmd.png" width="23%" align="middle" alt="Trp-cage · VMD 青碳"></a>
   <a href="docs/images/showcase/diamond-vmd.png"><img src="docs/images/showcase/diamond-vmd.png" width="23%" align="middle" alt="金刚石 · VMD 青碳"></a>
-  <br>18-冠-6 · 空间填充 · 咖啡因 · 铜棕珠光 · Trp-cage · VMD 青碳 · 金刚石 · VMD 青碳
+  <br>VESTA 风格 HOMO · VESTA 风格电子密度 · Trp-cage · VMD 青碳 · 金刚石 · VMD 青碳
 </p>
 
 <p align="center">
@@ -103,12 +107,14 @@
   <br>紫外吸收与主峰副图 · 红外与指纹区副图 · 拉曼 Stokes 与主峰副图 · 水的 O–H 伸缩区
 </p>
 
+### 能级与强度
+
 <p align="center">
+  <a href="docs/images/showcase/dopamine-orbital-levels.png"><img src="docs/images/showcase/dopamine-orbital-levels.png" width="23%" align="middle" alt="多巴胺分子轨道能级"></a>
   <a href="docs/images/spectra/s06.png"><img src="docs/images/spectra/s06.png" width="23%" align="middle" alt="ORCA 振子强度"></a>
   <a href="docs/images/spectra/s13.png"><img src="docs/images/spectra/s13.png" width="23%" align="middle" alt="红外积分强度"></a>
   <a href="docs/images/spectra/s17.png"><img src="docs/images/spectra/s17.png" width="23%" align="middle" alt="拉曼活性"></a>
-  <a href="docs/images/spectra/s12.png"><img src="docs/images/spectra/s12.png" width="23%" align="middle" alt="醇的红外全谱"></a>
-  <br>ORCA 振子强度 · 红外积分强度 · 拉曼活性 · 醇的红外全谱
+  <br>多巴胺分子轨道能级 · ORCA 振子强度 · 红外积分强度 · 拉曼活性
 </p>
 
 ### 散点、指纹与优化曲线
@@ -140,7 +146,7 @@
 
 ## 绘图方法与参考文献
 
-- **电子结构与等值面。** 多巴胺用 GFN2-xTB 优化并计算波函数，使用 Multiwfn 生成轨道、静电势和总电子密度格点。轨道等值为 ±0.030 bohr⁻³ᐟ²，密度图和静电势图的表面取 ρ = 0.001 e/bohr³。[GFN2-xTB](https://doi.org/10.1021/acs.jctc.8b01176) · [Multiwfn](https://doi.org/10.1002/jcc.22885)
+- **电子结构与等值面。** 多巴胺用 GFN2-xTB 优化并计算波函数，使用 Multiwfn 生成轨道、静电势和总电子密度格点。能级图使用同一次波函数计算的轨道能量与占据数。轨道等值为 ±0.030 bohr⁻³ᐟ²，密度图和静电势图的表面取 ρ = 0.001 e/bohr³。[GFN2-xTB](https://doi.org/10.1021/acs.jctc.8b01176) · [Multiwfn](https://doi.org/10.1002/jcc.22885)
 - **相互作用与分子表面。** 苯二聚体从 S66 的错位平行构型起步，使用 GFN2-xTB 优化，并绘制 IRI 与 IGMH。水笼以中央水分子的 Hirshfeld 权重 0.5 取面，按 dₙₒᵣₘ 着色，指纹图使用近邻核距离 dᵢ 和 dₑ。[S66](https://doi.org/10.1021/ct2002946) · [IRI](https://doi.org/10.1002/cmtd.202100007) · [IGMH](https://doi.org/10.1002/jcc.26812) · [Hirshfeld 表面](https://doi.org/10.1039/B818330A) · [指纹图](https://doi.org/10.1039/B203191B)
-- **光谱。** 数据图根据 Gaussian 和 ORCA 的计算结果绘制。二乙烯基苯例使用 cclib 公共测试数据，醇的红外样例使用 PM7。紫外吸收用高斯展宽，半高全宽为 0.24 eV。红外和拉曼用洛伦兹展宽，半高全宽为 20 cm⁻¹。拉曼 Stokes 谱按 532 nm 和 298.15 K 计算并归一化。柱图展示原始振子强度、红外积分强度或拉曼活性。[Gaussian](https://gaussian.com/) · [ORCA](https://doi.org/10.1002/wcms.81) · [PM7](https://doi.org/10.1007/s00894-012-1667-x) · [cclib](https://doi.org/10.1002/jcc.20823)
+- **光谱。** 数据图根据 Gaussian 和 ORCA 的计算结果绘制。二乙烯基苯例使用 cclib 公共测试数据。紫外吸收用高斯展宽，半高全宽为 0.24 eV。红外和拉曼用洛伦兹展宽，半高全宽为 20 cm⁻¹。拉曼 Stokes 谱按 532 nm 和 298.15 K 计算并归一化。柱图展示原始振子强度、红外积分强度或拉曼活性。[Gaussian](https://gaussian.com/) · [ORCA](https://doi.org/10.1002/wcms.81) · [cclib](https://doi.org/10.1002/jcc.20823)
 - **结构与外观。** 分子和晶体图由 Ester Studio 渲染，部分外观参考 VMD 和 VESTA。小分子起始构象和晶体示例使用 PubChem 与 COD 数据，Trp-cage 取自 PDB 1L2Y。[PubChem](https://pubchem.ncbi.nlm.nih.gov/) · [COD](https://www.crystallography.net/cod/) · [PDB 1L2Y](https://www.rcsb.org/structure/1L2Y) · [VMD](https://doi.org/10.1016/0263-7855(96)00018-5) · [VESTA 3](https://doi.org/10.1107/S0021889811038970)
