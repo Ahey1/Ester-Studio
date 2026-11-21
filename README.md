@@ -7,7 +7,7 @@
 
 免费使用 · 源码公开 · Windows x64 便携版
 
-[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-source-code.zip) · [2.1.2 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2) · [如何引用](#引用与许可)
+[下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.2/Ester-Studio-v2.1.2-source-code.zip) · [2.1.2 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.2) · [光谱图集](#光谱图集) · [如何引用](#引用与许可)
 
 </div>
 
@@ -69,6 +69,85 @@
 </p>
 
 [查看取值、单位和结构来源](docs/showcase.md)
+
+## 光谱图集
+
+18 张紫外吸收、红外和拉曼图由 Ester Studio 根据 Gaussian 和 ORCA 的计算结果绘制。展开分组还可查看棒谱叠加、局部副图和强度柱图。
+
+<p align="center">
+  <a href="docs/images/spectra/s01.png"><img src="docs/images/spectra/s01.png" width="365" alt="二乙烯基苯紫外吸收全谱"></a>
+  <a href="docs/images/spectra/s03.png"><img src="docs/images/spectra/s03.png" width="365" alt="吸收主峰区局部放大"></a>
+  <br>二乙烯基苯紫外吸收全谱 · 吸收主峰区局部放大
+</p>
+
+<p align="center">
+  <a href="docs/images/spectra/s09.png"><img src="docs/images/spectra/s09.png" width="365" alt="红外指纹区渐变填色"></a>
+  <a href="docs/images/spectra/s17.png"><img src="docs/images/spectra/s17.png" width="365" alt="拉曼活性渐变柱"></a>
+  <br>红外指纹区渐变填色 · 拉曼活性渐变柱
+</p>
+
+<details>
+<summary>展开更多紫外吸收图（5 张）</summary>
+
+<p align="center">
+  <a href="docs/images/spectra/s02.png"><img src="docs/images/spectra/s02.png" width="365" alt="波长轴 · 渐变填色"></a>
+  <a href="docs/images/spectra/s04.png"><img src="docs/images/spectra/s04.png" width="365" alt="吸收包络与跃迁棒谱"></a>
+  <br>波长轴 · 渐变填色 · 吸收包络与跃迁棒谱
+</p>
+
+<p align="center">
+  <a href="docs/images/spectra/s05.png"><img src="docs/images/spectra/s05.png" width="365" alt="振子强度 · 实色柱"></a>
+  <a href="docs/images/spectra/s06.png"><img src="docs/images/spectra/s06.png" width="365" alt="ORCA 振子强度渐变柱"></a>
+  <br>振子强度 · 实色柱 · ORCA 振子强度渐变柱
+</p>
+
+<p align="center">
+  <a href="docs/images/spectra/s07.png"><img src="docs/images/spectra/s07.png" width="365" alt="ORCA 波长轴吸收全谱"></a>
+  <br>ORCA 波长轴吸收全谱
+</p>
+
+</details>
+
+<details>
+<summary>展开更多红外图（5 张）</summary>
+
+<p align="center">
+  <a href="docs/images/spectra/s08.png"><img src="docs/images/spectra/s08.png" width="365" alt="红外全谱"></a>
+  <a href="docs/images/spectra/s10.png"><img src="docs/images/spectra/s10.png" width="365" alt="全谱＋指纹区副图"></a>
+  <br>红外全谱 · 全谱＋指纹区副图
+</p>
+
+<p align="center">
+  <a href="docs/images/spectra/s11.png"><img src="docs/images/spectra/s11.png" width="365" alt="水的红外全谱"></a>
+  <a href="docs/images/spectra/s12.png"><img src="docs/images/spectra/s12.png" width="365" alt="醇的红外全谱 · 渐变填色"></a>
+  <br>水的红外全谱 · 醇的红外全谱 · 渐变填色
+</p>
+
+<p align="center">
+  <a href="docs/images/spectra/s13.png"><img src="docs/images/spectra/s13.png" width="365" alt="指纹区 IR 强度 · 渐变柱"></a>
+  <br>指纹区 IR 强度 · 渐变柱
+</p>
+
+</details>
+
+<details>
+<summary>展开更多拉曼图（4 张）</summary>
+
+<p align="center">
+  <a href="docs/images/spectra/s14.png"><img src="docs/images/spectra/s14.png" width="365" alt="Gaussian Stokes 全谱"></a>
+  <a href="docs/images/spectra/s15.png"><img src="docs/images/spectra/s15.png" width="365" alt="主峰区放大 · 渐变填色"></a>
+  <br>Gaussian Stokes 全谱 · 主峰区放大 · 渐变填色
+</p>
+
+<p align="center">
+  <a href="docs/images/spectra/s16.png"><img src="docs/images/spectra/s16.png" width="365" alt="Stokes 全谱＋主峰区副图"></a>
+  <a href="docs/images/spectra/s18.png"><img src="docs/images/spectra/s18.png" width="365" alt="ORCA 数值频率 Stokes 全谱"></a>
+  <br>Stokes 全谱＋主峰区副图 · ORCA 数值频率 Stokes 全谱
+</p>
+
+</details>
+
+[查看光谱参数、图号与计算来源](docs/spectra.md)
 
 ## 晶体与表面
 
