@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="docs/images/showcase/dopamine-homo.png"><img src="docs/images/showcase/dopamine-homo.png" width="365" alt="多巴胺 HOMO"></a>
-  <a href="docs/images/showcase/dopamine-esp.png"><img src="docs/images/showcase/dopamine-esp.png" width="365" alt="多巴胺静电势"></a>
+  <a href="docs/images/showcase/dopamine-esp-arial.png"><img src="docs/images/showcase/dopamine-esp-arial.png" width="365" alt="多巴胺静电势"></a>
   <br>多巴胺 HOMO · 多巴胺静电势
 </p>
 
@@ -33,8 +33,8 @@
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/benzene-stack-iri.png"><img src="docs/images/showcase/benzene-stack-iri.png" width="365" alt="苯二聚体 IRI"></a>
-  <a href="docs/images/showcase/benzene-stack-igmh.png"><img src="docs/images/showcase/benzene-stack-igmh.png" width="365" alt="苯二聚体 IGMH"></a>
+  <a href="docs/images/showcase/benzene-stack-iri-arial.png"><img src="docs/images/showcase/benzene-stack-iri-arial.png" width="365" alt="苯二聚体 IRI"></a>
+  <a href="docs/images/showcase/benzene-stack-igmh-arial.png"><img src="docs/images/showcase/benzene-stack-igmh-arial.png" width="365" alt="苯二聚体 IGMH"></a>
   <br>苯二聚体 IRI · 苯二聚体 IGMH
 </p>
 
@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-  <a href="docs/images/showcase/water-cage-hirshfeld.png"><img src="docs/images/showcase/water-cage-hirshfeld.png" width="365" alt="中央水 Hirshfeld 表面"></a>
+  <a href="docs/images/showcase/water-cage-hirshfeld-arial.png"><img src="docs/images/showcase/water-cage-hirshfeld-arial.png" width="365" alt="中央水 Hirshfeld 表面"></a>
   <a href="docs/images/showcase/water-cage-fingerprint.png"><img src="docs/images/showcase/water-cage-fingerprint.png" width="365" alt="水笼指纹图"></a>
   <br>中央水 Hirshfeld 表面 · 水笼指纹图
 </p>
