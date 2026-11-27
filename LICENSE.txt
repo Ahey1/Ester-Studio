@@ -1,7 +1,7 @@
 Ester Studio 免费源码公开许可协议
 
 Copyright (c) 2026 Zixuan Zhang
-适用软件版本  Ester Studio 2.1.3
+适用软件版本  Ester Studio 2.1.4
 作者及许可联系人  Zixuan Zhang <ddwz@sciyue.cn>
 官方仓库  https://github.com/Ahey1/Ester-Studio
 版本与源码  https://github.com/Ahey1/Ester-Studio/releases

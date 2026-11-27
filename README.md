@@ -7,13 +7,13 @@
 
 源码公开 · 非商业用途免费 · Windows x64 便携版
 
-[如何引用](#推荐引用) · [下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.3/Ester-Studio-v2.1.3-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.3/Ester-Studio-v2.1.3-source-code.zip) · [2.1.3 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.3) · [轨道与静电势](#实算图例与结构外观) · [数据图](#数据图)
+[如何引用](#推荐引用) · [下载 Windows 便携版](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.4/Ester-Studio-v2.1.4-Windows-x64.zip) · [下载完整源码](https://github.com/Ahey1/Ester-Studio/releases/download/v2.1.4/Ester-Studio-v2.1.4-source-code.zip) · [2.1.4 更新与校验](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.4) · [轨道与静电势](#实算图例与结构外观) · [数据图](#数据图)
 
 </div>
 
 ## 推荐引用
 
-> Zhang, Z. *Ester Studio*, version 2.1.3 [computer software]. GitHub, 2026. [2.1.3 发布页](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.3)
+> Zhang, Z. *Ester Studio*, version 2.1.4 [computer software]. GitHub, 2026. [2.1.4 发布页](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.4)
 
 **请在参考文献中注明实际使用的 Ester Studio 版本。** 发表论文时，请说明软件用于哪一步。期刊条件允许时，请尽量在正文中标注引用。
 
@@ -47,7 +47,9 @@
 - **构象与轨迹。** 组合采样、逐级优化和归簇，播放轨迹时查看逐帧连接、晶胞及冻结原子。
 - **反应路径与后处理。** 运行适用的内坐标扫描、CI-NEB、FSM 或双端 GSM，分析 TS、振动、IRC 和波函数。
 
-[查看 2.1.3 的完整更新](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.3)
+2.1.4 支持昼夜界面和独立三维画布底色，改进构象批量优化、标签管理及助手的过渡态与 IRC 工作流。
+
+[查看 2.1.4 的完整更新](https://github.com/Ahey1/Ester-Studio/releases/tag/v2.1.4)
 
 ## 实算图例与结构外观
 
@@ -129,18 +131,18 @@
 
 ## 下载与使用
 
-完整解压 Windows x64 便携包，运行 **Ester-Studio.exe**。首次启动请阅读许可并确认计算资源。2.1.3 随包提供 GFN0/1/2-xTB 与 GFN-FF 运行环境。部分波函数分析按需配置 Multiwfn，运行 Gaussian 或 ORCA 作业时使用各自的外部程序。
+完整解压 Windows x64 便携包，运行 **Ester-Studio.exe**。首次启动请阅读许可并确认计算资源。2.1.4 随包提供 GFN0/1/2-xTB 与 GFN-FF 运行环境。部分波函数分析按需配置 Multiwfn，运行 Gaussian 或 ORCA 作业时使用各自的外部程序。
 
 ### 项目兼容、外部程序和源码附件
 
-- 2.1.3 可以载入 2.x 的旧 `.es`，保存采用当前格式。已有神经网络势计算结果可以查看和导出，保留方法、能量、轨迹和来源。新计算可使用本版提供的计算级别。
+- 2.1.4 可以载入 2.x 的旧 `.es`，保存采用当前格式。已有神经网络势计算结果可以查看和导出，保留方法、能量、轨迹和来源。新计算可使用本版提供的计算级别。
 - g-xTB 从[官方发布页](https://github.com/grimme-lab/g-xtb/releases)获取，在 Settings 中选择和检测可执行文件。
-- 本仓库提供软件介绍、展示资料和发行入口。完整产品源码发布在独立的 `Ester-Studio-v2.1.3-source-code.zip`。自动生成的 Source code 附件对应此介绍仓库。
+- 本仓库提供软件介绍、展示资料和发行入口。完整产品源码发布在独立的 `Ester-Studio-v2.1.4-source-code.zip`。自动生成的 Source code 附件对应此介绍仓库。
 - [历史版本](https://github.com/Ahey1/Ester-Studio/releases) · [教程与视频](https://space.bilibili.com/3493133310495553) · [问题与建议](https://github.com/Ahey1/Ester-Studio/issues)
 
 ## 引用与许可
 
-请同时引用研究中实际使用的方法、程序和数据来源。可以通过软件右上角「导出文献」核对条目。2.1.3 的非商业用途免费，商业用途须事先取得作者书面许可。完整条款见 [LICENSE.txt](LICENSE.txt)，第三方组件适用各自的许可。
+请同时引用研究中实际使用的方法、程序和数据来源。可以通过软件右上角「导出文献」核对条目。2.1.4 的非商业用途免费，商业用途须事先取得作者书面许可。完整条款见 [LICENSE.txt](LICENSE.txt)，第三方组件适用各自的许可。
 
 作者 **Zixuan Zhang** · 许可事务 **ddwz@sciyue.cn**
 
